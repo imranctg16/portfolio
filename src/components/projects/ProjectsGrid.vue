@@ -54,39 +54,33 @@ export default {
 		<!-- Projects grid title -->
 		<div class="text-center">
 			<p
-				class="font-general-semibold text-2xl sm:text-5xl font-semibold mb-2 text-ternary-dark dark:text-ternary-light"
-			>
+				class="font-general-semibold text-2xl sm:text-5xl font-semibold mb-2 text-ternary-dark dark:text-ternary-light">
 				{{ projectsHeading }}
 			</p>
 		</div>
 
 		<!-- Filter and search projects -->
 		<div class="mt-10 sm:mt-10">
-			<h3
-				class="font-general-regular
+			<h3 class="font-general-regular
 					text-center text-secondary-dark
 					dark:text-ternary-light
 					text-md
 					sm:text-xl
 					font-normal
 					mb-4
-				"
-			>
+				">
 				Search projects by title or filter by category
 			</h3>
-			<div
-				class="
+			<div class="
 					flex
 					justify-between
 					border-b border-primary-light
 					dark:border-secondary-dark
 					pb-3
 					gap-2
-				"
-			>
+				">
 				<div class="flex justify-between gap-2">
-					<span
-						class="
+					<span class="
 							hidden
 							sm:block
 							bg-primary-light
@@ -95,16 +89,10 @@ export default {
 							shadow-sm
 							rounded-xl
 							cursor-pointer
-							"
-					>
-						<i
-							data-feather="search"
-							class="text-ternary-dark dark:text-ternary-light"
-						></i>
+							">
+						<i data-feather="search" class="text-ternary-dark dark:text-ternary-light"></i>
 					</span>
-					<input
-						v-model="searchProject"
-						class="font-general-medium
+					<input v-model="searchProject" class="font-general-medium
 						pl-3
 						pr-1
 						sm:px-4
@@ -118,28 +106,15 @@ export default {
 						dark:bg-ternary-dark
 						text-primary-dark
 						dark:text-ternary-light
-						"
-						id="name"
-						name="name"
-						type="search"
-						required=""
-						placeholder="Search Projects"
-						aria-label="Name"
-					/>
+						" id="name" name="name" type="search" required="" placeholder="Search Projects" aria-label="Name" />
 				</div>
 				<ProjectsFilter @filter="selectedCategory = $event" />
 			</div>
 		</div>
 
 		<!-- Projects grid -->
-		<div
-			class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10"
-		>
-			<ProjectSingle
-				v-for="project in filteredProjects"
-				:key="project.id"
-				:project="project"
-			/>
+		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
+			<ProjectSingle v-for="project in filteredProjects" :key="project.id" :project="project" />
 		</div>
 	</section>
 </template>
