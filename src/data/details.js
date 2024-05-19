@@ -205,7 +205,7 @@ const projectsDetails = {
       {
         id: 3,
         title: "Github",
-        details: "https://company.com",
+        details: "https://github.com/imranctg16/Python-Practices",
       },
     ],
     objectivesHeading: "Objective",
