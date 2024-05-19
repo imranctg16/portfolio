@@ -16,24 +16,18 @@ const projects = [
 	},
 	{
 		id: 3,
-		title: 'Client Handling Tool',
-		category: 'Web Application',
-		img: require('@/assets/images/ui-project-1.jpg'),
-	},
-	{
-		id: 4,
 		title: 'BARD: ERP',
 		category: 'Web Application',
 		img: require('@/assets/images/ui-project-2.jpg'),
 	},
 	{
-		id: 5,
+		id: 4,
 		title: 'JWT: TOKEN',
 		category: 'Web Application',
 		img: require('@/assets/images/mobile-project-1.jpg'),
 	},
 	{
-		id: 6,
+		id: 5,
 		title: 'LEETCODES',
 		category: 'Web Application',
 		img: require('@/assets/images/web-project-1.jpg'),

@@ -3,18 +3,19 @@ import feather from 'feather-icons';
 import ProjectHeader from '../components/projects/ProjectHeader.vue';
 import ProjectGallery from '../components/projects/ProjectGallery.vue';
 import ProjectInfo from '../components/projects/ProjectInfo.vue';
-import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects.vue';
+import projectDetails from '../data/details';
 
 export default {
 	name: 'Projects',
+	props: ['id'],
 	components: {
 		ProjectHeader,
 		ProjectGallery,
 		ProjectInfo,
-		ProjectRelatedProjects,
 	},
 	data: () => {
 		return {
+			projectDetails,
 			singleProjectHeader: {
 				singleProjectTitle: 'Project Management UI',
 				singleProjectDate: 'Jul 26, 2021',
@@ -102,43 +103,27 @@ export default {
 				],
 				socialSharingsHeading: '',
 				socialSharings: [
-				
+
 				],
 			},
 			relatedProject: {
-				relatedProjectsHeading: 'Related Projects',
-				relatedProjects: [
-					{
-						id: 1,
-						title: 'Mobile UI',
-						img: require('@/assets/images/mobile-project-1.jpg'),
-					},
-					{
-						id: 2,
-						title: 'Web Application',
-						img: require('@/assets/images/web-project-1.jpg'),
-					},
-					{
-						id: 3,
-						title: 'UI Design',
-						img: require('@/assets/images/ui-project-2.jpg'),
-					},
-					{
-						id: 4,
-						title: 'Kabul Mobile App UI',
-						img: require('@/assets/images/mobile-project-2.jpg'),
-					},
-				],
+				
+				
 			},
 		};
 	},
 	mounted() {
 		feather.replace();
+		this.setProjectDetails();
 	},
 	updated() {
 		feather.replace();
 	},
-	methods: {},
+	methods: {
+		setProjectDetails() {
+			this.projectInfo = projectDetails[this.id]
+		}
+	},
 };
 </script>
 
@@ -154,7 +139,7 @@ export default {
 		<ProjectInfo :projectInfo="projectInfo" />
 
 		<!-- Project related projects -->
-		<ProjectRelatedProjects :relatedProject="relatedProject" />
+		<!-- <ProjectRelatedProjects :relatedProject="relatedProject" /> -->
 	</div>
 </template>
 

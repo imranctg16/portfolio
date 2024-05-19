@@ -35,7 +35,7 @@ const routes = [
 		},
 	},
 	{
-		path: '/projects/single-project',
+		path: '/projects/single-project/:id',
 		name: 'Single Project',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
@@ -47,6 +47,7 @@ const routes = [
 		meta: {
 			title: 'Imran - Single Project',
 		},
+		props: true
 	},
 	{
 		path: '/contact',

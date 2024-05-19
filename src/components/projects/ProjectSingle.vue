@@ -1,12 +1,8 @@
-<script>
-export default {
-	props: ['project'],
-};
-</script>
+
 
 <template>
 	<router-link
-		to="/projects/single-project"
+		:to="{ name: 'Single Project', params: { id: project.id } }"
 		class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark"
 		aria-label="Single Project"
 	>
@@ -30,5 +26,12 @@ export default {
 		</div>
 	</router-link>
 </template>
+
+<script>
+export default {
+	props: ['project'],
+
+};
+</script>
 
 <style lang="scss" scoped></style>
