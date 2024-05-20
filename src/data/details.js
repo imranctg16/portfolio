@@ -59,6 +59,24 @@ const projectsDetails = {
     ],
     socialSharingsHeading: "",
     socialSharings: [],
+    projectImages: [
+      {
+        id: 1,
+        title: "Login",
+        img: require("@/assets/images/rcms_1.png"),
+      },
+      {
+        id: 2,
+        title: "Dashboard",
+        img: require("@/assets/images/rcms_2.png"),
+      },
+    ],
+    singleProjectHeader: {
+      singleProjectTitle: 'Regulatory Compliance Management',
+      singleProjectDate: 'Sept, 2023',
+      singleProjectTag: 'UI / Frontend / Backend',
+    },
+
   },
   2: {
     clientHeading: "About Client",
@@ -110,6 +128,28 @@ const projectsDetails = {
     ],
     socialSharingsHeading: "",
     socialSharings: [],
+    projectImages: [
+      {
+        id: 1,
+        title: "Login",
+        img: require("@/assets/images/dwe_1.png"),
+      },
+      {
+        id: 2,
+        title: "Dashboard",
+        img: require("@/assets/images/dwe_2.png"),
+      },
+      {
+        id: 3,
+        title: "Report",
+        img: require("@/assets/images/dwe_3.png"),
+      },
+    ],
+    singleProjectHeader: {
+      singleProjectTitle: 'Dynamic Workflow Engine',
+      singleProjectDate: 'May, 2021',
+      singleProjectTag: 'UI / Frontend / Backend',
+    },
   },
   3: {
     clientHeading: "BARD: ERP",
@@ -154,6 +194,23 @@ const projectsDetails = {
     ],
     socialSharingsHeading: "",
     socialSharings: [],
+    projectImages: [
+      {
+        id: 1,
+        title: "Login",
+        img: require("@/assets/images/bard_1.png"),
+      },
+      {
+        id: 2,
+        title: "Dashboard",
+        img: require("@/assets/images/bard_2.png"),
+      },
+    ],
+    singleProjectHeader: {
+      singleProjectTitle: 'Dynamic Workflow Engine',
+      singleProjectDate: 'March,2019 - April,2021',
+      singleProjectTag: 'UI / Frontend / Backend',
+    },
   },
   4: {
     clientHeading: "About Client",
@@ -188,6 +245,23 @@ const projectsDetails = {
     ],
     socialSharingsHeading: "",
     socialSharings: [],
+    projectImages: [
+      {
+        id: 1,
+        title: "Login",
+        img: require("@/assets/images/jwt_1.png"),
+      },
+      {
+        id: 2,
+        title: "Dashboard",
+        img: require("@/assets/images/jwt_2.png"),
+      },
+    ],
+    singleProjectHeader: {
+      singleProjectTitle: 'JWT: Token Based Auth',
+      singleProjectDate: 'April, 2024',
+      singleProjectTag: 'UI / Frontend / Backend',
+    },
   },
   5: {
     clientHeading: "About Client",
@@ -232,6 +306,28 @@ const projectsDetails = {
     ],
     socialSharingsHeading: "",
     socialSharings: [],
+    projectImages: [
+      {
+        id: 1,
+        title: "Kabul Project Management UI",
+        img: require("@/assets/images/ui-project-1.jpg"),
+      },
+      {
+        id: 2,
+        title: "Kabul Project Management UI",
+        img: require("@/assets/images/web-project-2.jpg"),
+      },
+      {
+        id: 3,
+        title: "Kabul Project Management UI",
+        img: require("@/assets/images/mobile-project-2.jpg"),
+      },
+    ],
+    singleProjectHeader: {
+      singleProjectTitle: 'Leetcode Solutions',
+      singleProjectDate: 'May, 2024',
+      singleProjectTag: 'UI / Frontend / Backend',
+    },
   },
 };
 

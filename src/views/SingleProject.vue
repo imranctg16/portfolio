@@ -17,7 +17,7 @@ export default {
 		return {
 			projectDetails,
 			singleProjectHeader: {
-				singleProjectTitle: 'Project Management UI',
+				singleProjectTitle: 'Project Details',
 				singleProjectDate: 'Jul 26, 2021',
 				singleProjectTag: 'UI / Frontend',
 			},
@@ -122,7 +122,9 @@ export default {
 	methods: {
 		setProjectDetails() {
 			this.projectInfo = projectDetails[this.id]
-		}
+			this.projectImages = projectDetails[this.id].projectImages
+			this.singleProjectHeader = projectDetails[this.id].singleProjectHeader
+		},
 	},
 };
 </script>

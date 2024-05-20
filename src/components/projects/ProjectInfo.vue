@@ -30,7 +30,7 @@ export default {
 						:key="info"
 						class="font-general-regular text-ternary-dark dark:text-ternary-light"
 					>
-						<span>{{ info.title }}: </span>
+						<span class="font-bold text-primary-dark dark:text-primary-light">{{ info.title }}: </span>
 						<a
 							href="#"
 							:class="
