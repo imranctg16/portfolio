@@ -25,7 +25,8 @@
     "vue": "^3.4.27",
     "vue-backtotop": "^1.6.1",
     "vue-router": "^4.3.2",
-    "vue3-autocounter": "^1.0.6"
+    "vue3-autocounter": "^1.0.6",
+    "vue3-carousel": "^0.3.3"
   },
   "devDependencies": {
     "@vue/cli-service": "~5.0.8",
