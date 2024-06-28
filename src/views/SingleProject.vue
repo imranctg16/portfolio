@@ -107,8 +107,8 @@ export default {
 				],
 			},
 			relatedProject: {
-				
-				
+
+
 			},
 		};
 	},
@@ -138,7 +138,7 @@ export default {
 		<ProjectGallery :projectImages="projectImages" />
 
 		<!-- Project information -->
-		<ProjectInfo :projectInfo="projectInfo" />
+		<ProjectInfo :projectInfo="projectInfo" :id="this.id" />
 
 		<!-- Project related projects -->
 		<!-- <ProjectRelatedProjects :relatedProject="relatedProject" /> -->
