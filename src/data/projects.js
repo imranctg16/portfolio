@@ -5,31 +5,31 @@ const projects = [
 	{
 		id: 1,
 		title: 'Regulatory Compliance Management',
-		category: 'Web Application',
+		category: 'Official',
 		img: require('@/assets/images/web-project-2.jpg'),
 	},
 	{
 		id: 2,
 		title: 'Dynamic Workflow Engine',
-		category: 'Web Application',
+		category: 'Official',
 		img: require('@/assets/images/mobile-project-2.jpg'),
 	},
 	{
 		id: 3,
 		title: 'BARD: ERP',
-		category: 'Web Application',
+		category: 'Official',
 		img: require('@/assets/images/ui-project-2.jpg'),
 	},
 	{
 		id: 4,
 		title: 'JWT: TOKEN',
-		category: 'Web Application',
+		category: 'Personal',
 		img: require('@/assets/images/mobile-project-1.jpg'),
 	},
 	{
 		id: 5,
 		title: 'LEETCODES',
-		category: 'Web Application',
+		category: 'Personal',
 		img: require('@/assets/images/web-project-1.jpg'),
 	},
 ];
