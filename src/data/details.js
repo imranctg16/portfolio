@@ -143,6 +143,11 @@ const projectsDetails = {
         id: 3,
         title: "Report",
         img: require("@/assets/images/dwe_3.png"),
+      }, 
+      {
+        id: 4,
+        title: "Report",
+        img: require("@/assets/images/dwe_4.png"),
       },
     ],
     singleProjectHeader: {
