@@ -334,6 +334,62 @@ const projectsDetails = {
       singleProjectTag: 'UI / Frontend / Backend',
     },
   },
+  6: {
+    clientHeading: "About Client",
+    companyInfos: [
+      {
+        id: 1,
+        title: "Name",
+        details: "Personal Practice Project",
+      },
+      {
+        id: 2,
+        title: "Services",
+        details: "Personal Learning",
+      },
+      {
+        id: 3,
+        title: "Github",
+        details: "https://github.com/imranctg16/rabbitmq-microservice",
+      },
+    ],
+    objectivesHeading: "Objective",
+    objectivesDetails:
+      "This project demonstrates a microservice architecture for an order processing system using Laravel, RabbitMQ, and MySQL. The system consists of two services: a Producer service for creating products and a Consumer service for managing inventory.",
+    technologies: [
+      {
+        title: "Tools & Technologies",
+        techs: ["Laravel", "RabbitMQ", "MySQL"],
+      },
+    ],
+    projectDetailsHeading: "Project Details",
+    projectDetails: [
+    ],
+    socialSharingsHeading: "",
+    socialSharings: [],
+    projectImages: [
+      {
+        id: 1,
+        title: "Kabul Project Management UI",
+        img: require("@/assets/images/ui-project-1.jpg"),
+      },
+      {
+        id: 2,
+        title: "Kabul Project Management UI",
+        img: require("@/assets/images/web-project-2.jpg"),
+      },
+      {
+        id: 3,
+        title: "Kabul Project Management UI",
+        img: require("@/assets/images/mobile-project-2.jpg"),
+      },
+    ],
+    singleProjectHeader: {
+      singleProjectTitle: 'RabbitMQ Microservice',
+      singleProjectDate: 'June, 2024',
+      singleProjectTag: 'RabbitMQ / Backend',
+    },
+  },
 };
 
 export default projectsDetails;

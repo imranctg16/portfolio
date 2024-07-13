@@ -375,7 +375,6 @@ Lately, I've been deep into LeetCode problem-solving and Python practice session
 #### Experience and Learning
 
 These coding sessions have been a great way to stay sharp and explore different problem-solving strategies. From dynamic programming to data structures, each LeetCode challenge and Python exercise adds a layer of understanding to my coding toolkit. It's a casual yet rewarding way to level up my coding game while enjoying the process of learning and growing as a coder.
-
       `}
 };
 
