@@ -6,37 +6,37 @@ const projects = [
 		id: 1,
 		title: 'Regulatory Compliance Management',
 		category: 'Official',
-		img: require('@/assets/images/web-project-2.jpg'),
+		img: require('@/assets/images/rcms_1.png'),
 	},
 	{
 		id: 2,
 		title: 'Dynamic Workflow Engine',
 		category: 'Official',
-		img: require('@/assets/images/mobile-project-2.jpg'),
+		img: require('@/assets/images/dwe_1.png'),
 	},
 	{
 		id: 3,
 		title: 'BARD: ERP',
 		category: 'Official',
-		img: require('@/assets/images/ui-project-2.jpg'),
+		img: require('@/assets/images/bard_1.png'),
 	},
 	{
 		id: 4,
 		title: 'JWT: TOKEN',
 		category: 'Personal',
-		img: require('@/assets/images/mobile-project-1.jpg'),
+		img: require('@/assets/images/jwt_token_1.png'),
 	},
 	{
 		id: 5,
 		title: 'LEETCODES',
 		category: 'Personal',
-		img: require('@/assets/images/web-project-1.jpg'),
+		img: require('@/assets/images/leetcode.png'),
 	},
 	{
 		id: 6,
 		title: 'RabbitMQ Microservice',
 		category: 'Personal',
-		img: require('@/assets/images/web-project-1.jpg'),
+		img: require('@/assets/images/rabbitmq.png'),
 	},
 	
 ];
